@@ -1,7 +1,7 @@
 #ifndef TOOL_H
 #define TOOL_H
 
-#include "common/Header.h"
+#include "Header.h"
 
 class Tool {
 public:
@@ -9,6 +9,7 @@ public:
 
     virtual std::string getName() const = 0;
     
+
     virtual std::string getDescription() const = 0;
 
     virtual std::optional<std::string> execute(const std::string& args) = 0;
