@@ -1,4 +1,4 @@
-#include "Calculator_tool.h"
+#include "calculator_tool.h"
 #include <sstream>
 #include <cmath>
 

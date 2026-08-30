@@ -1,7 +1,7 @@
 #ifndef CALCULATOR_TOOL_H
 #define CALCULATOR_TOOL_H
 
-#include "Tool.h"
+#include "tool.h"
 
 class CalculatorTool : public Tool {
 public:

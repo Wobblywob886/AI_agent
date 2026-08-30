@@ -1,6 +1,7 @@
-#include "Tool_registry.h"
-#include "File_tool.h"
-#include "Calculator_tool.h"
+#include "tool_registry.h"
+#include "file_tool.h"
+#include "calculator_tool.h"
+#include "exec_tool.h"
 #include <iostream>
 
 void ToolRegistry::registerTool(std::unique_ptr<Tool> tool) {

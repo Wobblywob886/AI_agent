@@ -1,7 +1,7 @@
 #ifndef EXEC_TOOL_H
 #define EXEC_TOOL_H
 
-#include "Tool.h"
+#include "tool.h"
 
 class ExecTool : public Tool {
 public:

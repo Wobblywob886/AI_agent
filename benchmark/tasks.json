@@ -1,0 +1,82 @@
+[
+  {
+    "id": "t01",
+    "description": "Calculate 15 * 17",
+    "instruction": "Calculate 15 multiplied by 17 and tell me the result.",
+    "eval_type": "keyword",
+    "keywords": ["255"],
+    "max_steps": 5
+  },
+  {
+    "id": "t02",
+    "description": "Write to file",
+    "instruction": "Write the word 'hello' into a file named hello.txt",
+    "eval_type": "functional",
+    "eval_script": "test -f hello.txt && grep -q hello hello.txt && echo PASS",
+    "max_steps": 5
+  },
+  {
+    "id": "t03",
+    "description": "Read file",
+    "instruction": "Read the content of hello.txt and tell me what it says.",
+    "eval_type": "functional",
+    "eval_script": "echo PASS",
+    "max_steps": 5
+  },
+  {
+    "id": "t04",
+    "description": "List directories",
+    "instruction": "List the top-level directories in the current folder.",
+    "eval_type": "keyword",
+    "keywords": ["src", "skills", "benchmark"],
+    "max_steps": 5
+  },
+  {
+    "id": "t05",
+    "description": "Calculate and save",
+    "instruction": "Calculate 15*17 and save the result to result.txt",
+    "eval_type": "functional",
+    "eval_script": "test -f result.txt && grep -q 255 result.txt && echo PASS",
+    "max_steps": 8
+  },
+  {
+    "id": "t06",
+    "description": "Shell command",
+    "instruction": "Run 'echo Hello from agent' and tell me the output.",
+    "eval_type": "keyword",
+    "keywords": ["Hello from agent"],
+    "max_steps": 5
+  },
+  {
+    "id": "t07",
+    "description": "Memory test",
+    "instruction": "Remember that the capital of France is Paris. Then recall it.",
+    "eval_type": "keyword",
+    "keywords": ["Paris"],
+    "max_steps": 8
+  },
+  {
+    "id": "t08",
+    "description": "Multi-step",
+    "instruction": "Calculate 10*25, then double the result and save to doubled.txt",
+    "eval_type": "functional",
+    "eval_script": "test -f doubled.txt && grep -q 500 doubled.txt && echo PASS",
+    "max_steps": 10
+  },
+  {
+    "id": "t09",
+    "description": "Search simulation",
+    "instruction": "Search for C++17 features and summarize one.",
+    "eval_type": "keyword",
+    "keywords": ["structured bindings", "optional"],
+    "max_steps": 10
+  },
+  {
+    "id": "t10",
+    "description": "Complex task",
+    "instruction": "Create a file report.txt with the result of 20*30.",
+    "eval_type": "functional",
+    "eval_script": "test -f report.txt && grep -q 600 report.txt && echo PASS",
+    "max_steps": 10
+  }
+]
