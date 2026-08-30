@@ -1,0 +1,110 @@
+[
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/main.cpp.o -c /workspaces/AI_agent/main.cpp",
+  "file": "/workspaces/AI_agent/main.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/main.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/agent/agent_loop.cpp.o -c /workspaces/AI_agent/src/agent/agent_loop.cpp",
+  "file": "/workspaces/AI_agent/src/agent/agent_loop.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/agent/agent_loop.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/agent/loop_detector.cpp.o -c /workspaces/AI_agent/src/agent/loop_detector.cpp",
+  "file": "/workspaces/AI_agent/src/agent/loop_detector.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/agent/loop_detector.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/agent/skill_loader.cpp.o -c /workspaces/AI_agent/src/agent/skill_loader.cpp",
+  "file": "/workspaces/AI_agent/src/agent/skill_loader.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/agent/skill_loader.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/client/ollama_client.cpp.o -c /workspaces/AI_agent/src/client/ollama_client.cpp",
+  "file": "/workspaces/AI_agent/src/client/ollama_client.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/client/ollama_client.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/tools/calculator_tool.cpp.o -c /workspaces/AI_agent/src/tools/calculator_tool.cpp",
+  "file": "/workspaces/AI_agent/src/tools/calculator_tool.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/tools/calculator_tool.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/tools/exec_tool.cpp.o -c /workspaces/AI_agent/src/tools/exec_tool.cpp",
+  "file": "/workspaces/AI_agent/src/tools/exec_tool.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/tools/exec_tool.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/tools/file_tool.cpp.o -c /workspaces/AI_agent/src/tools/file_tool.cpp",
+  "file": "/workspaces/AI_agent/src/tools/file_tool.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/tools/file_tool.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/OopAgentCS.dir/src/tools/tool_registry.cpp.o -c /workspaces/AI_agent/src/tools/tool_registry.cpp",
+  "file": "/workspaces/AI_agent/src/tools/tool_registry.cpp",
+  "output": "CMakeFiles/OopAgentCS.dir/src/tools/tool_registry.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/benchmark/run_eval.cpp.o -c /workspaces/AI_agent/benchmark/run_eval.cpp",
+  "file": "/workspaces/AI_agent/benchmark/run_eval.cpp",
+  "output": "CMakeFiles/run_eval.dir/benchmark/run_eval.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/agent/agent_loop.cpp.o -c /workspaces/AI_agent/src/agent/agent_loop.cpp",
+  "file": "/workspaces/AI_agent/src/agent/agent_loop.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/agent/agent_loop.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/agent/loop_detector.cpp.o -c /workspaces/AI_agent/src/agent/loop_detector.cpp",
+  "file": "/workspaces/AI_agent/src/agent/loop_detector.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/agent/loop_detector.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/agent/skill_loader.cpp.o -c /workspaces/AI_agent/src/agent/skill_loader.cpp",
+  "file": "/workspaces/AI_agent/src/agent/skill_loader.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/agent/skill_loader.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/client/ollama_client.cpp.o -c /workspaces/AI_agent/src/client/ollama_client.cpp",
+  "file": "/workspaces/AI_agent/src/client/ollama_client.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/client/ollama_client.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/tools/calculator_tool.cpp.o -c /workspaces/AI_agent/src/tools/calculator_tool.cpp",
+  "file": "/workspaces/AI_agent/src/tools/calculator_tool.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/tools/calculator_tool.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/tools/exec_tool.cpp.o -c /workspaces/AI_agent/src/tools/exec_tool.cpp",
+  "file": "/workspaces/AI_agent/src/tools/exec_tool.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/tools/exec_tool.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/tools/file_tool.cpp.o -c /workspaces/AI_agent/src/tools/file_tool.cpp",
+  "file": "/workspaces/AI_agent/src/tools/file_tool.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/tools/file_tool.cpp.o"
+},
+{
+  "directory": "/workspaces/AI_agent/build",
+  "command": "/usr/bin/g++  -I/workspaces/AI_agent/src -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/run_eval.dir/src/tools/tool_registry.cpp.o -c /workspaces/AI_agent/src/tools/tool_registry.cpp",
+  "file": "/workspaces/AI_agent/src/tools/tool_registry.cpp",
+  "output": "CMakeFiles/run_eval.dir/src/tools/tool_registry.cpp.o"
+}
+]
