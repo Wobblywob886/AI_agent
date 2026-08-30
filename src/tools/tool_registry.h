@@ -2,9 +2,9 @@
 #define TOOL_REGISTRY_H
 
 #include "../common/Header.h"
-#include "tool.h"  
+#include "tool.h"   // Keep this
 
-#include <set>      
+#include <set>      // Add this if not already in Header
 
 class ToolRegistry {
 private:
@@ -20,4 +20,4 @@ public:
     bool isAllowed(const std::string& name) const;
 };
 
-#endif 
+#endif // TOOL_REGISTRY_H
